@@ -27,14 +27,34 @@ table, th, td {
     vertical-align: middle;
     text-align: center;
     border:1px solid black;
+    max-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .image-cropped-transform {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 200px;
     height: 100%;
     object-fit: cover;
     object-position: 55%;
     transform: scale(0.5) translate(0, 5%);
 }
+
+.cropped-image {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #bbb;
+}
+
+.position-70-15 {
+    object-position: 70% 15%;
+
+}
+
+
+
+
