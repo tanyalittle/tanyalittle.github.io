@@ -3,12 +3,43 @@ body
     background-color: rgb(200, 248, 228);
 }
 
+@font-face 
+{
+font-family: BaliBeach;
+src: url(BaliBeach-L3G6W.ttf);
+}
 
+div
+{
+  font-family: BaliBeach;
+}
+
+@font-face 
+{
+font-family: Armanda;
+src: url(ArmandaFree-BWXXB.ttf);
+}
+
+div
+{
+  font-family: Armanda;
+}
+
+.balibeach
+{
+    font-family: BaliBeach;
+}
+
+.armanda
+{
+    font-family: Armanda;
+}
 
 h1 
 {
     text-align: center;
     color: rgb(87, 12, 156);
+    font-family: BaliBeach;
 }
 
 h2 
@@ -21,7 +52,7 @@ h2
 h3 
 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Armanda;
     color: rgb(12, 108, 156);
 }
 
