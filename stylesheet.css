@@ -3,17 +3,11 @@ body
     background-color: rgb(200, 248, 228);
 }
 
-@font-face {
-    font-family: headerFont;
-    src: url(https://github.com/tanyalittle/tanyalittle.github.io/blob/main/docs/assets/fonts/BaliBeach-L3G6W.ttf);
-}
-
 
 
 h1 
 {
     text-align: center;
-    font-family: headerFont;
     color: rgb(87, 12, 156);
 }
 
