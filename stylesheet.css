@@ -9,20 +9,10 @@ font-family: BaliBeach;
 src: url(BaliBeach-L3G6W.ttf);
 }
 
-div
-{
-  font-family: BaliBeach;
-}
-
 @font-face 
 {
 font-family: Armanda;
 src: url(ArmandaFree-BWXXB.ttf);
-}
-
-div
-{
-  font-family: Armanda;
 }
 
 .balibeach
